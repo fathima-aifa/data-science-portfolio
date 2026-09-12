@@ -6,13 +6,15 @@ This folder contains practical projects and experiments built while learning and
 
 ### Blog Post Generator
 
-A simple application that generates a blog post outline and an engaging introduction based on a given topic.
+A simple Streamlit application that uses a sequential chain to generate a blog post outline and then create an engaging introduction based on the generated outline.
 
 **Concepts:** PromptTemplate, LCEL, Sequential Chains, StrOutputParser
 
 ### Marketing Email Generator
 
-An application that generates a marketing email based on a product, its features, and the target audience.
+A Streamlit application that uses sequential chains to generate a marketing email subject line and create a structured email based on the product, features, and target audience.
+
+The final output is parsed into a JSON structure using `JsonOutputParser`.
 
 **Concepts:** PromptTemplate, Sequential Chains, Lambda Functions, StrOutputParser, JsonOutputParser
 
@@ -23,3 +25,7 @@ An application that generates a marketing email based on a product, its features
 * Ollama
 * Mistral
 * Streamlit
+
+Both projects use Ollama with the Mistral language model for local LLM inference.
+
+
