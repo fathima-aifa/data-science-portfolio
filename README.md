@@ -1,2 +1,5 @@
-# data-science-portfolio
-Data Science portfolio with end-to-end machine learning, deep learning, and data analysis projects using Python, Scikit-learn, TensorFlow, Keras, and SQL.
+# Data Science Portfolio
+
+This repository contains my projects and practical work in Data Science, including data analysis, machine learning, deep learning, and Generative AI.
+
+It includes projects built using Python, SQL, Scikit-learn, TensorFlow, Keras, LangChain, and other related tools and technologies.
