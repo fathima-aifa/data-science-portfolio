@@ -1,4 +1,4 @@
-## LangChain Projects
+# LangChain Projects
 
 This folder contains practical projects and experiments built while learning and exploring LangChain.
 
@@ -18,6 +18,12 @@ The final output is parsed into a JSON structure using `JsonOutputParser`.
 
 **Concepts:** PromptTemplate, Sequential Chains, Lambda Functions, StrOutputParser, JsonOutputParser
 
+### Data Science Assistant with Chat History
+
+A Streamlit-based chatbot that answers Data Science questions using Mistral through Ollama. The application maintains conversation history, allowing the assistant to understand follow-up questions based on previous messages.
+
+**Concepts:** ChatPromptTemplate, MessagesPlaceholder, InMemoryChatMessageHistory, RunnableWithMessageHistory, Streamlit Session State
+
 ## Technologies
 
 * Python
@@ -26,6 +32,5 @@ The final output is parsed into a JSON structure using `JsonOutputParser`.
 * Mistral
 * Streamlit
 
-Both projects use Ollama with the Mistral language model for local LLM inference.
 
 
